@@ -61,7 +61,7 @@ input, button { font-family: var(--f); }
 
 /* ===== HERO ===== */
 .hero { position: relative; overflow: hidden; background: var(--white); }
-.hero__yellow-side { position: absolute; top: 0; right: 0; width: 55%; height: 100%; background: var(--yellow-light); z-index: 0; }
+.hero__yellow-side { position: absolute; top: 0; right: 0; width: 45%; height: 100%; background: var(--yellow-light); z-index: 0; }
 .hero__container { max-width: var(--w); margin: 0 auto; padding: 0 var(--p); position: relative; z-index: 1; display: flex; height: 800px; align-items: center; }
 .hero__content { width: 598px; flex-shrink: 0; }
 .hero__title { font-size: 42px; font-weight: 600; color: var(--green); line-height: 1.2; }
@@ -82,13 +82,13 @@ input, button { font-family: var(--f); }
 /* ===== CTA BAR ===== */
 .cta-bar { padding: 0; background: var(--white); }
 .cta-bar__container { max-width: var(--w); margin: 0 auto; display: flex; height: 300px; position: relative; overflow: hidden; background: var(--yellow); box-shadow: 0 10px 20px 0 #e0e0e0; }
-.cta-bar__left { width: 50%; padding: 45px 47px; position: relative; z-index: 2; background: var(--gray-card); }
+.cta-bar__left { width: 57%; padding: 45px 47px; position: relative; z-index: 2; background: var(--gray-card); }
 .cta-bar__left::after { content: ''; position: absolute; top: 0; right: -40px; width: 80px; height: 100%; background: linear-gradient(to right, var(--gray-card), var(--yellow)); z-index: 1; }
 .cta-bar__title { font-size: 28px; font-weight: 700; color: var(--green); line-height: 1.55; }
 .cta-bar__subtitle { font-size: 20px; font-weight: 500; color: var(--green); line-height: 1.55; margin-top: 4px; }
 .cta-bar__phone-btn { display: inline-block; margin-top: 18px; font-size: 42px; font-weight: 700; color: var(--purple); border-radius: 30px; transition: color 0.2s; }
 .cta-bar__phone-btn:hover { color: var(--purple-h); }
-.cta-bar__right { width: 50%; padding: 90px 40px 30px; position: relative; z-index: 2; }
+.cta-bar__right { width: 43%; padding: 90px 40px 30px; position: relative; z-index: 2; }
 .cta-bar__form { display: flex; gap: 12px; align-items: center; }
 .cta-bar__input { height: 56px; padding: 0 16px; border: 1px solid #d7dce6; border-radius: 5px; font-size: 18px; color: var(--green); background: var(--blue-gray); outline: none; width: 280px; }
 .cta-bar__input:focus { border-color: var(--green); }
